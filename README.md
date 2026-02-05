@@ -59,10 +59,11 @@ LeetCode-Multi-Language-Solutions/
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/LeetCode-Multi-Language-Solutions.git
-cd LeetCode-Multi-Language-Solutions
-### END
+//git clone https://github.com/yourusername/LeetCode-Multi-Language-Solutions.git
+//cd LeetCode-Multi-Language-Solutions
+```
 ------------------------------------------------------------------------------
+
 Running Solutions
 Each language folder contains its own README with specific instructions.
 
