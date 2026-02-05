@@ -1,89 +1,182 @@
-🚀 LeetCode Multi-Language Solutions
-A comprehensive collection of LeetCode problem solutions implemented across the modern development stack: C#, C++, JavaScript, TypeScript, and Dart. This repository is designed for developers practicing for interviews, learning new language syntaxes, or exploring algorithmic efficiency.
+# LeetCode Solutions in Multiple Languages 🚀
 
-🎯 Why This Repository?
-Comparative Learning: Side-by-side analysis of how the same algorithm is expressed in different paradigms.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)](https://docs.microsoft.com/dotnet/csharp/)
+[![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white)](https://dart.dev/)
 
-Language Migration: Perfect for developers transitioning (e.g., from Java/C# to Dart for Flutter, or JS to TypeScript).
+A comprehensive collection of LeetCode problem solutions implemented in **C#**, **C++**, **JavaScript**, **TypeScript**, and **Dart**. This repository serves as a reference for algorithm implementation across multiple programming languages.
 
-Best Practices: Each solution adheres to language-specific conventions (e.g., LINQ in C#, STL in C++, ES6+ in JS).
+## 📊 Project Statistics
+- **Total Problems Solved:** 200+
+- **Languages Covered:** 5
+- **Categories:** Arrays, Strings, DP, Trees, Graphs, etc.
+- **Difficulty Levels:** Easy, Medium, Hard
 
-Complexity Analysis: Every solution includes documented Big O time and space complexity.
-
-🗂️ Repository Structure
-The project is organized by language, then by data structure/algorithm category:
-
+## 🗂️ Repository Structure
 LeetCode-Multi-Language-Solutions/
-├── CSharp-Solutions/         # .NET 6.0+ implementations
-│   ├── 1D-Arrays/
-│   │   ├── TwoSum.cs
-│   │   └── README.md         # Language-specific run instructions
-├── Cpp-Solutions/            # C++17/20 implementations
-├── JavaScript-Solutions/     # Node.js implementations
-├── TypeScript-Solutions/     # Strictly typed implementations
-├── Dart-Solutions/           # Null-safe Dart implementations
-└── docs/                     # General documentation & assets
+├── CSharp-Solutions/ # C# implementations
+│ ├── 1D-Arrays/
+│ │ ├── TwoSum.cs
+│ │ ├── MaximumSubarray.cs
+│ │ └── README.md
+│ ├── 2D-Arrays/
+│ └── Strings/
+├── Cpp-Solutions/ # C++ implementations
+├── JavaScript-Solutions/ # JavaScript implementations
+├── TypeScript-Solutions/ # TypeScript implementations
+├── Dart-Solutions/ # Dart implementations
+└── docs/ # Documentation
 
-📊 Project StatisticsProblem CategoriesCategoryProblemsLanguages Supported1D Arrays35C#, C++, JS, TS, Dart2D Arrays20C#, C++, JS, TS, DartStrings25C#, C++, JS, TS, DartLinked Lists15C#, C++, JS, TS, DartTrees30C#, C++, JS, TS, DartDP & Graphs45C#, C++, JS, TS, Dart
+## 🎯 Why This Repository?
+- **Comparative Learning:** Compare implementations across languages
+- **Language Migration:** See how algorithms translate between languages
+- **Best Practices:** Each solution follows language-specific conventions
+- **Consistent Structure:** Uniform problem organization
+- **Performance Notes:** Time/space complexity analysis for each solution
 
-Performance SnapshotProblemC# TimeC++ TimeJS TimeNotesTwo Sum120ms8ms68msC++ leads in low-level memory controlMerge Sort45ms32ms92msC# JIT performance is highly competitiveBFS88ms56ms120msJS performance varies by V8 optimization
+## 📚 Problem Categories
+| Category            | Problems Count | Languages             |
+|---------------------|----------------|-----------------------|
+| 1D Arrays           | 35             | C#, C++, JS, TS, Dart |
+| 2D Arrays           | 20             | C#, C++, JS, TS, Dart |
+| Strings             | 25             | C#, C++, JS, TS, Dart |
+| Linked Lists        | 15             | C#, C++, JS, TS, Dart |
+| Trees               | 30             | C#, C++, JS, TS, Dart |
+| Dynamic Programming | 25             | C#, C++, JS, TS, Dart |
+| Graphs              | 20             | C#, C++, JS, TS, Dart |
 
-🔧 Language-Specific Highlights
-C#: Leverages modern features like LINQ, pattern matching, and xUnit for testing.
+## 🚀 Getting Started
 
-C++: Focuses on STL efficiency, memory management, and modern C++20 standards.
+### Prerequisites
+- **C#:** .NET SDK 6.0+
+- **C++:** GCC/G++ 9.0+ or MSVC
+- **JavaScript:** Node.js 14+
+- **TypeScript:** TypeScript 4.0+
+- **Dart:** Dart SDK 2.15+
 
-JS/TS: Utilizes ES6+ functional programming (Map, Reduce, Filter) and strict TypeScript interfaces.
-
-Dart: Fully null-safe codebases following official Dart linting rules, ready for Flutter integration.
-
-🚀 Getting Started
-Prerequisites
-Ensure you have the following installed for your language of choice:
-
-C#: .NET SDK 6.0+
-
-C++: GCC 9.0+ or MSVC
-
-Node.js: v14+ (for JS and TS)
-
-Dart: SDK 2.15+
-
-Installation
+### Clone the Repository
+```bash
 git clone https://github.com/yourusername/LeetCode-Multi-Language-Solutions.git
 cd LeetCode-Multi-Language-Solutions
+### END
+------------------------------------------------------------------------------
+Running Solutions
+Each language folder contains its own README with specific instructions.
+
+📝 Solution Template
+Each solution follows this structure:
+
+// Problem: [Problem Name] (Difficulty)
+// Description: [Brief description]
+// LeetCode Link: [Link to problem]
+
+/*
+ALGORITHM:
+1. [Step 1]
+2. [Step 2]
+3. [Step 3]
+
+TIME COMPLEXITY: O(n)
+SPACE COMPLEXITY: O(1)
+*/
+
+public class Solution {
+    public int[] SolveProblem(int[] nums) {
+        // Implementation
+    }
+}
+
+-----------------------------------------------------------------------------
+🔧 Language-Specific Features
+C# Solutions
+Uses modern C# features (LINQ, Pattern Matching)
+Follows Microsoft coding conventions
+Includes unit tests with xUnit
+C++ Solutions
+Follows C++17/20 standards
+Uses STL algorithms where appropriate
+Memory-safe implementations
+JavaScript/TypeScript Solutions
+ES6+ features
+TypeScript with strict typing
+Functional programming approaches
+Dart Solutions
+Null-safe code
+Follows Dart best practices
+Ready for Flutter integration
+-------------------------------------------------------------------------
+📊 Performance Comparison
+Problem	    C# Time	  C++ Time	JSTime	   Language Notes
+Two Sum	      120ms	   8ms	      68ms	   C++ fastest due to low-level control
+Merge Sort	  45ms	   32ms	      92ms	   C# close to C++ performance
+BFS Traversal 88ms	   56ms	      120ms	   JS async can be optimized
+-------------------------------------------------------------------------
 
 🤝 Contributing
-We welcome contributions! To maintain consistency, please follow these steps:
+We welcome contributions! Please see CONTRIBUTING.md for guidelines.
 
-Fork the repository.
+Contribution Workflow
+1-Fork the repository
+2-Create a feature branch
+3-Add solutions in all 5 languages
+4-Update documentation
+5-Submit a pull request
 
-Create a feature branch (git checkout -b feature/NewSolution).
+📖 Learning Resources
+.LeetCode Official
+.C# Documentation
+.C++ Reference
+.MDN Web Docs
+.Dart Documentation
 
-Add the solution in all 5 languages using the provided template.
+🏆 Completed Problem Sets
 
-Update the category counts in the main README.
+✅ 1D Arrays (35 Problems)
+.Two Sum
+.Best Time to Buy and Sell Stock
+.Contains Duplicate
+.Product of Array Except Self
+.Maximum Subarray
+... (30 more)
 
-Submit a Pull Request.
+✅ 2D Arrays (20 Problems)
+.Set Matrix Zeroes
+.Spiral Matrix
+.Rotate Image
+.Search a 2D Matrix
+... (16 more)
 
-🛠️ Recommended VS Code Setup
-Enhance your workflow with these extensions:
+📈 Progress Tracking
+Language	Easy	Medium	Hard	Total
+C#	         45	      35	 20	     100
+C++	         45	      35	 20	     100
+JavaScript	 45	      35	 20	     100
+TypeScript	 45	      35	 20	     100
+Dart	     45	      35	 20	     100
 
+---------------------------------------------------------
+📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+🙏 Acknowledgments
+.LeetCode for the problem sets
+.Various programming language communities
+.Contributors and maintainers
+
+📞 Contact
+For questions or suggestions:
+GitHub Issues: Create an issue
+Email: khzl.email@gmail.com
+
+-----------------------------------------------------------------------
+
+🚀 VS Code Setup Recommendations
+Extensions to Install:
 C#: C# for Visual Studio Code
-
 C++: C/C++ by Microsoft
-
-JS/TS: ESLint, Prettier
-
-Dart: Dart Code
-
-Tools: Code Runner, GitLens
-
-📜 License & Acknowledgments
-This project is licensed under the MIT License.
-
-Special thanks to LeetCode for providing the platform and the global developer community for the constant inspiration.
-
-Contact: khzl.email@gmail.com | GitHub Issues
-
-Keep coding, keep optimizing! 🚀
+JavaScript/TypeScript: ESLint, Prettier
+Dart: Dart Code, Flutter
+General: GitLens, Code Runner
