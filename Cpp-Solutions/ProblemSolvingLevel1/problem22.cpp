@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 void ReadCircleAreaInscribedInAnIsoscelesTriangle(float &Height, float &Base)
 {
